@@ -6,7 +6,7 @@ diameter of fiber, and diferent coupling regaime to plot frequency
 response and crosstalk in the fiber vs modulation bandwidth.
 To plot different frequency response and cross-talk we have to follows following procedure
 # Prerequisites
-1. install "numpy"
+1. Install "numpy"
 
 2. Install "scipy"
 
