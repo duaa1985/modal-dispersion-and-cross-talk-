@@ -21,7 +21,7 @@ length, diameter and radius of curvature.
 frequency response a fiber and modulation bandwidth, using files which
 are saved by 'lossless_dispersion.py'.
 
--To plot cross-talk in multiplexed signal in fiber without mode dependent loss
+- To plot cross-talk in multiplexed signal in fiber without mode dependent loss
 
 1. Run 'lossless_crosstalk.py', it will save the first order and
 higher order frequency response of the fiber as file for different
@@ -31,7 +31,7 @@ length, diameter and radius of curvature.
 frequency response a fiber and modulation bandwidth, using file which
 are saved by 'lossy_crosstalk.py'.
 
--To plot frequency responseTo plot frequency response of the fiber
+- To plot frequency responseTo plot frequency response of the fiber
 with mode dependent loss Vs modulation bandwidth
 
  1. Run 'propagationmatrix.py' to generate modal projection from lossy
@@ -45,7 +45,7 @@ diameter and radius of curvature.
 frequency response a fiber and modulation bandwidth, using files which
 are saved by 'lossy_dispersion.py'.
 
--To plot cross-talk in multiplexed signal in fiber without mode dependent loss
+- To plot cross-talk in multiplexed signal in fiber without mode dependent loss
 
 1. Run 'propagationmatrix.py' to generate modal projection from lossy
 section to lossess section and save it as a file.
@@ -58,7 +58,7 @@ length, diameter and radius of curvature.
 frequency response a fiber and modulation bandwidth, using file which
 are saved by 'lossy_multiplexing_1km.py'.
 
--To plot Bit error rate (BER) Vs. signal to noise ratio (SNR)
+- To plot Bit error rate (BER) Vs. signal to noise ratio (SNR)
 
 1. Run 'BER.py', it save BER for different SNR at different frequency
 
