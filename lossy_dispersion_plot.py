@@ -85,10 +85,10 @@ plt.axis([0,5, -5, 1])
 ms = 20.0
 markevery =10
 lw = 5
-plt.plot([i / 1e9 for i in t],((data4/100)-max(data4/100)),'g-s', lw=lw,ms=ms,markevery=markevery,label='First order response',markeredgecolor='black',markeredgewidth=1)
-plt.plot([i / 1e9 for i in t],((data6/100)-max(data5/100)), 'b-o', lw=lw,ms=ms,markevery=markevery,label='Higher order response at $\sigma_\kappa$ = 3 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
-plt.plot([i / 1e9 for i in t],((data7/100)-max(data6/100)), 'r-*', lw=lw,ms=ms,markevery=markevery,label='Higher order response at $\sigma_\kappa$ = 7 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
-plt.plot([i / 1e9 for i in t],((data8/100)-max(data7/100)), 'y-v', lw=lw,ms=ms,markevery=markevery,label='Higher order response at $\sigma_\kappa$ = 10 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
+plt.plot([i / 1e9 for i in t],((data4/100)-max(data4/100)),'m-o', lw=lw,ms=40,markevery=markevery,label='First order response',markeredgecolor='black',markeredgewidth=1)
+plt.plot([i / 1e9 for i in t],((data6/100)-max(data5/100)), 'r-s', lw=lw,ms=30,markevery=markevery,label='Higher order response at $\sigma_\kappa$ = 3 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
+plt.plot([i / 1e9 for i in t],((data7/100)-max(data6/100)), 'y-*', lw=lw,ms=ms,markevery=markevery,label='Higher order response at $\sigma_\kappa$ = 7 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
+plt.plot([i / 1e9 for i in t],((data8/100)-max(data7/100)), 'b-v', lw=lw,ms=ms,markevery=markevery,label='Higher order response at $\sigma_\kappa$ = 10 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
 plt.xlabel(r'\text{Modulation bandwidth} (GHz)',fontsize=30)
 plt.ylabel(r'\text{Frequency response} (dB)',fontsize=30)
 plt.grid(True)

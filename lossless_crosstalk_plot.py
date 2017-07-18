@@ -62,10 +62,10 @@ plt.axis([0,10, -100, -15])
 ms = 20.0
 markevery =10
 lw = 5
-plt.plot([i / 1e9 for i in t],data2/10, 'g-^', lw=lw,ms=ms,markevery=markevery,label='Higher order response at $\sigma_\kappa$ = 3 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
-plt.plot([i / 1e9 for i in t],data3/10, 'b-o', lw=lw,ms=ms,markevery=markevery,label='Higher order response at $\sigma_\kappa$ = 5 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
-plt.plot([i / 1e9 for i in t],data4/10, 'r-*', lw=lw,ms=ms,markevery=markevery,label='Higher order response at $\sigma_\kappa$ = 7 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
-plt.plot([i / 1e9 for i in t],data5/10, 'y-v', lw=lw,ms=ms,markevery=markevery,label='Higher order response at $\sigma_\kappa$ = 10 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
+plt.plot([i / 1e9 for i in t],data2/10, 'g-^', lw=lw,ms=40,markevery=markevery,label='Higher order response at $\sigma_\kappa$ = 3 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
+plt.plot([i / 1e9 for i in t],data3/10, 'r-o', lw=lw,ms=30,markevery=markevery,label='Higher order response at $\sigma_\kappa$ = 5 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
+plt.plot([i / 1e9 for i in t],data4/10, 'y-s', lw=lw,ms=15,markevery=markevery,label='Higher order response at $\sigma_\kappa$ = 7 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
+plt.plot([i / 1e9 for i in t],data5/10, 'b-v', lw=lw,ms=ms,markevery=markevery,label='Higher order response at $\sigma_\kappa$ = 10 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
 plt.xlabel(r'\text{Modulation bandwidth} (GHz)',fontsize=30)
 plt.ylabel(r'\text{Cross-talk} (dB)',fontsize=30)
 plt.grid(True)

@@ -61,11 +61,11 @@ plt.axis([0,70, -5, 1])
 ms = 20.0
 markevery =10
 lw = 5
-plt.plot([i / 1e9 for i in t],data1/15,'g-s', lw=lw,ms=ms,markevery=markevery,label='First order response',markeredgecolor='black',markeredgewidth=1)
-plt.plot([i / 1e9 for i in t],data2/15, 'b-^', lw=lw,ms=ms,markevery=markevery,label='Higher order response at $\sigma_{\kappa}$ = 1 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
-plt.plot([i / 1e9 for i in t],data3/15, 'r-o', lw=lw,ms=ms,markevery=markevery,label='Higher order response at $\sigma_{\kappa}$ = 3 m$^{-1} $',markeredgecolor='black',markeredgewidth=1)
+plt.plot([i / 1e9 for i in t],data1/15,'m-o', lw=lw,ms=40,markevery=markevery,label='First order response',markeredgecolor='black',markeredgewidth=1)
+plt.plot([i / 1e9 for i in t],data2/15, 'g-^', lw=lw,ms=30,markevery=markevery,label='Higher order response at $\sigma_{\kappa}$ = 1 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
+plt.plot([i / 1e9 for i in t],data3/15, 'r-s', lw=lw,ms=15,markevery=markevery,label='Higher order response at $\sigma_{\kappa}$ = 3 m$^{-1} $',markeredgecolor='black',markeredgewidth=1)
 plt.plot([i / 1e9 for i in t],data4/15, 'y-*', lw=lw,ms=ms,markevery=markevery,label='Higher order response at $\sigma_{\kappa}$ = 5 m$^{-1} $',markeredgecolor='black',markeredgewidth=1)
-plt.plot([i / 1e9 for i in t],data5/15, 'm-v', lw=lw,ms=ms,markevery=markevery,label='Higher order response at $\sigma_{\kappa}$ = 7 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
+plt.plot([i / 1e9 for i in t],data5/15, 'b-v', lw=lw,ms=ms,markevery=markevery,label='Higher order response at $\sigma_{\kappa}$ = 7 m$^{-1}$',markeredgecolor='black',markeredgewidth=1)
 plt.xlabel(r'\text{Modulation bandwidth} (GHz)',fontsize=30)
 plt.ylabel(r'\text{Frequency response} (dB)',fontsize=30)
 plt.grid(True)
